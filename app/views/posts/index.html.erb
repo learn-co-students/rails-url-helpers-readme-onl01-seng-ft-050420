@@ -1,0 +1,5 @@
+<% @posts.each do |post| %>
+    <div><%= link_to post.title, post_path(post) %></div>
+  <% end %>
+  #to replace <a href= for a link we should do the link_to method instead
+  #to replace "/posts/#post.id"" we should do the post_path(post.id)
