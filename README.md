@@ -13,7 +13,7 @@ route helper methods? Let's imagine that you have a meeting in NYC, and you
 want to get from one side of the city to the other. You have a couple of
 different options:
 
-1. Traverse the streets on foot
+1. Traverse the streets on foot 
 2. Take a taxi
 
 Walking is like hard coding your route's path. Technically, it can work.
@@ -34,7 +34,7 @@ like in code:
 Here you're saying: "I know exactly the GPS coordinates of my meeting, driver.
 Do exactly as I say."
 
-* **Route helper:** `post_path(@post)`
+* **Route helper:** `post_path(@post)         `
 
 Here you're saying: "Can you find the best way to a controller that knows how
 to work with this thing called a `Post` based on looking at this instance
